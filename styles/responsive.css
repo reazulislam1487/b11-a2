@@ -9,13 +9,15 @@
 @media screen and (max-width: 576px) {
   .menu-bar {
     padding: 1rem;
+    margin-top: 0;
   }
   .hambarger {
     font-size: 30px;
   }
   .left-side-menu h4,
   .middle-side-menu,
-  .menu-bar .btn button {
+  .menu-bar .btn button,
+  .arrow-container {
     display: none;
     padding: 1rem;
   }
@@ -31,5 +33,17 @@
   }
   .text-container p {
     font-size: 1.2rem;
+  }
+  /* standard-container */
+  .standard-curriculum {
+    background-image: url("../assets/bg.png");
+    background-size: cover;
+  }
+  .standard-container {
+    padding: 1rem;
+  }
+  .box-container {
+    flex-direction: column;
+    padding: 1rem;
   }
 }
