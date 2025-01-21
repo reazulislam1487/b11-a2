@@ -44,7 +44,9 @@
     background-image: url("../assets/bg.png");
     background-size: cover;
   }
-  .standard-container {
+  .standard-container h1 {
+    font-size: 2.2rem;
+    padding-bottom: 2rem;
   }
   .box-container {
     flex-direction: column;
@@ -55,6 +57,10 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+  }
+  .caption h1 {
+    font-size: 2.3rem;
+    padding-bottom: 30px;
   }
   .img-box-2 h6 {
     margin-bottom: 20px;
