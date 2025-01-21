@@ -89,7 +89,19 @@ html {
   border-radius: 0.7rem;
   color: white;
 }
-
+/* marquee */
+.marquee {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-style: italic;
+  transition: 1.5s;
+  font-weight: 600;
+}
+.marquee:hover {
+  color: rgb(7, 134, 177);
+  transition: 0.5s;
+}
 /* Main Start */
 .main-container {
   max-width: 1160px;
@@ -264,6 +276,7 @@ html {
   color: #8700ff;
   background: none;
 }
+/* arrow  */
 .arrow-container {
   justify-content: center;
   gap: 0.7rem;
@@ -279,6 +292,10 @@ html {
   position: relative;
   align-content: center;
 }
+.left-arrow:hover {
+  background-color: rgb(173, 114, 5);
+  transition: 0.3s;
+}
 .right-arrow {
   width: 60px;
   height: 60px;
@@ -287,6 +304,10 @@ html {
   text-align: center;
   position: relative;
   align-content: center;
+}
+.right-arrow:hover {
+  background-color: rgb(173, 114, 5);
+  transition: 0.3s;
 }
 /* our-stories */
 .our-stories {
@@ -362,6 +383,7 @@ html {
   color: black;
   padding-left: 38px;
   font-weight: bold;
+  font-size: 1rem;
 }
 .img-box-3 {
   border-radius: 16px;
@@ -385,6 +407,7 @@ html {
   color: black;
   padding-left: 38px;
   font-weight: bold;
+  font-size: 1rem;
 }
 .img-box-4 {
   border-radius: 16px;
@@ -408,6 +431,7 @@ html {
   color: black;
   padding-left: 38px;
   font-weight: bold;
+  font-size: 1rem;
 }
 .img-box-5 {
   border-radius: 16px;
@@ -432,6 +456,7 @@ html {
   color: black;
   padding-left: 38px;
   font-weight: bold;
+  font-size: 1rem;
 }
 .caption h1 {
   padding: 60px 0;
