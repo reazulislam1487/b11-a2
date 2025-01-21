@@ -357,9 +357,6 @@ html {
 }
 .img-box-3 {
   border-radius: 16px;
-}
-.img-box-3 {
-  border-radius: 16px;
   background-color: white;
 }
 .img-box-3 img {
@@ -425,4 +422,24 @@ html {
   padding-left: 38px;
   font-weight: bold;
   line-height: 28px;
+}
+.caption h1 {
+  padding: 60px 0;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.view-all-btn {
+  text-align: center;
+  margin: 30px auto;
+  padding: 60px 0;
+}
+.view-all-btn button {
+  background-color: black;
+  padding: 0.6rem 3rem;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.7rem;
 }

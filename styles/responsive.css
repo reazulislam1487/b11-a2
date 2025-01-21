@@ -1,3 +1,4 @@
+/* Desktop view */
 @media screen and (min-width: 576px) {
   .menu-bar {
     border: none;
@@ -6,6 +7,7 @@
     display: none;
   }
 }
+/* Mobile view */
 @media screen and (max-width: 576px) {
   .menu-bar {
     padding: 1rem;
@@ -14,13 +16,15 @@
   .hambarger {
     font-size: 30px;
   }
+  /* display none */
   .left-side-menu h4,
   .middle-side-menu,
   .menu-bar .btn button,
-  .arrow-container {
+  .arrow-container,
+  .big-box {
     display: none;
-    padding: 1rem;
   }
+
   .main-container {
     flex-direction: column-reverse;
     padding: 1rem;
@@ -34,6 +38,7 @@
   .text-container p {
     font-size: 1.2rem;
   }
+
   /* standard-container */
   .standard-curriculum {
     background-image: url("../assets/bg.png");
@@ -46,4 +51,7 @@
     flex-direction: column;
     padding: 1rem;
   }
+  /* .our-stories {
+    margin: 0 auto;
+  } */
 }
