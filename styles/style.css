@@ -20,6 +20,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+button {
+  cursor: pointer;
+}
 html {
   font-size: 16px;
 }
@@ -265,6 +268,7 @@ html {
   justify-content: center;
   gap: 0.7rem;
   margin: 5rem auto;
+  cursor: pointer;
 }
 .left-arrow {
   width: 60px;
@@ -486,10 +490,6 @@ html {
   font-size: 1.3rem;
   font-weight: 400;
 }
-/* .footer-container .footer-menu {
-}
-.footer-container .footer-menu ul {
-} */
 .footer-container .footer-menu ul li {
   list-style: none;
   margin-bottom: 2rem;
@@ -512,4 +512,5 @@ html {
 }
 .socail-media-coontainer {
   gap: 0.5rem;
+  cursor: pointer;
 }
