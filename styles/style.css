@@ -382,6 +382,7 @@ html {
 .img-box-2 h6 {
   color: black;
   padding-left: 38px;
+  padding-right: 12px;
   font-weight: bold;
   font-size: 1rem;
 }
@@ -406,6 +407,7 @@ html {
 .img-box-3 h6 {
   color: black;
   padding-left: 38px;
+  padding-right: 12px;
   font-weight: bold;
   font-size: 1rem;
 }
@@ -455,6 +457,7 @@ html {
 .img-box-5 h6 {
   color: black;
   padding-left: 38px;
+  padding-right: 12px;
   font-weight: bold;
   font-size: 1rem;
 }
