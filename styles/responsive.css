@@ -45,12 +45,36 @@
     background-size: cover;
   }
   .standard-container {
-    padding: 1rem;
   }
   .box-container {
     flex-direction: column;
     padding: 1rem;
   }
+  .our-container {
+    max-width: 1160px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .img-box-2 h6 {
+    margin-bottom: 20px;
+  }
+  .img-box-3 h6 {
+    margin-bottom: 20px;
+  }
+  .img-box-4 h6 {
+    margin-bottom: 20px;
+  }
+  .img-box-5 h6 {
+    margin-bottom: 20px;
+  }
+  .view-all-btn {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0px 50px 0px;
+    margin-bottom: 20px;
+  }
+
   /* .our-stories {
     margin: 0 auto;
   } */
