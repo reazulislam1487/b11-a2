@@ -91,15 +91,20 @@ html {
 }
 /* marquee */
 .marquee {
+  display: flex;
+  align-items: center;
   max-width: 1440px;
   margin: 0 auto;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-style: italic;
   transition: 1.5s;
-  font-weight: 600;
+  font-weight: 800;
+  color: orange;
+  background-color: rgba(121, 100, 255, 0.158);
 }
 .marquee:hover {
-  color: rgb(7, 134, 177);
+  color: orange;
+  background-color: rgba(121, 100, 255, 0.107);
   transition: 0.5s;
 }
 /* Main Start */
