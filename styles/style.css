@@ -100,10 +100,9 @@ html {
   transition: 1.5s;
   font-weight: 800;
   color: orange;
-  background-color: rgba(121, 100, 255, 0.158);
+  background-color: rgba(121, 100, 255, 0.034);
 }
 .marquee:hover {
-  color: orange;
   background-color: rgba(121, 100, 255, 0.107);
   transition: 0.5s;
 }
